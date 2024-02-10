@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="CSs/main.css">
+    <!-- <link rel="stylesheet" href="Navstyle1.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+</head>
+<body> 
+   <div class="container-fluid">
+        <!-- <div class="container mt-6"> -->
+        <div class="row g-0">
+            <div class="col-lg-6 col-md-3">
+                <div class="jumbotron">
+                <br><br>
+                    <h1 class="display-4 ">HI THERE! <br>
+                        <p class="display-3 font-weight-bold">I'M  <span style="color: #29d8d8;">Vinaykumar</span></p>
+                    </h1>
+                    
+                    <p class="lead">A software Developer.</p>
+                    <hr class="my-2">
+                    <p>A fresh graduate software developer.  I enjoy developing innovative solutions and exploring new technologies to create impactful and efficient software applications.</p>
+                    <p> Passionate about translating ideas into reality through coding and problem-solving.</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-5 ">
+                <img src="Images/Profile.jpg" alt="Gayatri_Photo" style="width: 100%; height: 100%;" >
+                <div class="vertical-navbar">
+                </div>
+            <!-- </div> -->
+            </div>
+            <div class="col">
+                <div class="container-navbar">
+                        <a href="#" class="toggleBox">
+                            <span class="icon"></span>
+                        </a>
+
+                        <ul class="navItems">
+                        <li>
+                            <a href="Main.html">
+                            <i class="fa fa-home" style="--i:1"></i>
+                            <!-- <span style="--g:1">home</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="home.html">
+                            <i class="fa fa-user" style="--i:2"></i>
+                            <!-- <span style="--g:2">about</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Resume.html">
+                            <i class="fa fa-folder" style="--i:3"></i>
+                            <!-- <span style="--g:3">portfolio</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Portfolio.html">
+                            <i class="fa fa-message" style="--i:4"></i>
+                            <!-- <span style="--g:4">chat</span> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Contact.html">
+                            <i class="fa fa-globe" style="--i:5"></i>
+                            <!-- <span style="--g:5">blog</span> -->
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+            </div>
+        <!-- </div> -->
+   </div>
+
+  <script>
+     $( document ).ready(function() {
+        new WOW().init();
+    });
+
+    var toggleClick = document.querySelector(".toggleBox");
+    var container = document.querySelector(".container-navbar");
+    toggleClick.addEventListener('click', ()=>{
+        toggleClick.classList.toggle('active');
+        container.classList.toggle('active');
+    });
+  </script>
+    
+</body>
+</html>

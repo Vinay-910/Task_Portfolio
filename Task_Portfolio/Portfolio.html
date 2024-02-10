@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Resume.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"> 
+    <!-- <link rel="stylesheet" href="Navstyle1.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row g-0">
+            <div class="col-3">
+                <img src="Images/Profile.jpg" width="250px" height="250px">
+                <div class="column-navbar">
+                    <ul class="navItems">
+                        <li>
+                            <div class="circle"></div>
+                            <div class="lines"></div><br>
+                            <a href="Main.html">Home</a>
+                        </li>
+                        <li>
+                            <div class="lines"></div><br>
+                            <a href="home.html">About me</a>
+                        </li>
+                        <li>
+                            <div class="lines"></div><br>
+                            <a href="Resume.html">Resume</a>
+                        </li>
+                        <li>
+                            <div class="lines"></div><br>
+                            <a href="Portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <div class="lines"></div><br>
+                            <a href="Contact.html">Contact</a>
+                            <div class="lines"></div><br>
+                            <div class="circle"></div>
+                            <br>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+
+            <div class="col">
+                <div class="head">
+                    <p>Portfolio</p>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-sm-3">
+                            <a href="#" class="btn" onclick="showAll()">
+                                <i class="fas fa-home"></i> ALL
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#" class="btn" onclick="showGraphics()">
+                                <i class="fas fa-images"></i> Graphic Designs
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#" class="btn" onclick="showWebDesigns()">
+                                <i class="fas fa-java"></i> Web Designs
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="image-section all-images">
+                                <!-- Add all images here -->
+                                <div class="webpage">
+                                    <div class="row gx-5" >
+                                        <!-- Add all images for ALL here -->
+                                        <div class="col-lg-3">
+                                            <img src="Images/GD.webp" alt="Graphic Image 1">
+                                          </div>
+                                          <div class="col-lg-3">
+                                            <img src="Images/GD2.avif" alt="Graphic Image 2">
+                                          </div>
+                                          <div class="col-lg-3">
+                                            <img src="Images/GD3.webp" alt="Graphic Image 2">
+                                          </div>
+                                          <div class="col-lg-3">
+                                            <img src="Images/WP.png" alt="Graphic Image 1">
+                                          </div>
+                                          <div class="col-lg-3">
+                                            <img src="Images/WP1.png" alt="Graphic Image 2">
+                                          </div>
+                                          <div class="col-lg-3">
+                                            <img src="Images/WP3.png" alt="Graphic Image 2">
+                                          </div>
+                                          <div class="col-lg-3">
+                                            <img src="Images/GD4.png" alt="Graphic Image 2">
+                                          </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="image-section graphics-images">
+                                <!-- Add only graphics images here -->
+                                <div class="webpage">
+                                    <div class="row gx-5" >
+                                        <!-- Add graphics images here -->
+                                        <div class="col-lg-4">
+                                            <img src="Images/GD.webp" alt="Graphic Image 1">
+                                          </div>
+                                          <div class="col-lg-4">
+                                            <img src="Images/GD2.avif" alt="Graphic Image 2">
+                                          </div>
+                                          <div class="col-lg-4">
+                                            <img src="Images/GD3.webp" alt="Graphic Image 2">
+                                          </div>
+                                          
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-section web-designs-images">
+                                <!-- Add only web designs images here -->
+                                <div class="webpage">
+                                    <div class="row gx-5" >
+                                        <!-- Add web designs images here -->
+                                        <div class="col-lg-4">
+                                            <img src="Images/WP.png" alt="Graphic Image 1">
+                                          </div>
+                                          <div class="col-lg-4">
+                                            <img src="Images/WP1.png" alt="Graphic Image 2">
+                                          </div>
+                                          <div class="col-lg-4">
+                                            <img src="Images/WP2.png" alt="Graphic Image 2">
+                                          </div>
+                                          <div class="col-lg-4">
+                                            <img src="Images/WP3.png" alt="Graphic Image 1">
+                                          </div>
+                                          <div class="col-lg-4">
+                                            <img src="Images/WP4.png" alt="Graphic Image 2">
+                                          </div>
+                                          <div class="col-lg-4">
+                                            <img src="Images/WP5.jpg" alt="Graphic Image 2">
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function showAll() {
+            $('.image-section').hide();
+            $('.all-images').show();
+        }
+
+        function showGraphics() {
+            $('.image-section').hide();
+            $('.graphics-images').show();
+        }
+
+        function showWebDesigns() {
+            $('.image-section').hide();
+            $('.web-designs-images').show();
+        }
+    </script>
+</body>
+</html>
